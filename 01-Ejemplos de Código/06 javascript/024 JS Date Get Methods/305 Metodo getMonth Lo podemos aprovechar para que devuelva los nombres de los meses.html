@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>JavaScript getMonth()</h2>
+
+    <p>The getMonth() method returns the month as a number:</p>
+
+    <p>You can use an array to display the name of the month:</p>
+
+    <p id="demo"></p>
+
+    <script>
+        var d = new Date();
+        var months = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
+            "Julio", "Agosto", "Setiembre", "Octubre", "Noviembre", "Diciembre"
+        ];
+        document.getElementById("demo").innerHTML = months[d.getMonth()];
+    </script>
+
+</body>
+
+</html>

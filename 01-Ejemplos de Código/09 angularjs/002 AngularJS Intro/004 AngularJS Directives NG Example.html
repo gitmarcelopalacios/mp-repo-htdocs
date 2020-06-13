@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+<body>
+    <p>AngularJS extends HTML with ng-directives.</p>
+    <p>The ng-app directive defines an AngularJS application.</p>
+    <p>The ng-model directive binds the value of HTML controls (input, select, textarea) to application data.</p>
+    <p>The ng-bind directive binds application data to the HTML view.</p>
+    <div ng-app="">
+
+        <p>Ingrese un nombre:</p>
+        <p>Nombre: <input type="text" ng-model="name"></p>
+        <p ng-bind="name"></p>
+
+    </div>
+    <pre>
+        AngularJS extiende HTML con directivas ng.
+
+        La directiva ng-app define una aplicación AngularJS.
+        
+        La directiva ng-model vincula el valor de los controles HTML (input, select, textarea) a los datos de la aplicación.
+        
+        La directiva ng-bind vincula los datos de la aplicación a la vista HTML.
+
+        Ejemplo explicado:
+
+        AngularJS se inicia automáticamente cuando la página web se ha cargado.       
+
+        La directiva ng-app le dice a AngularJS que el elemento div es el "propietario" de una aplicación AngularJS.
+
+        La directiva ng-model vincula el valor del campo de entrada al nombre de la variable de la aplicación.
+        
+        La directiva ng-bind vincula el contenido del elemento p al nombre de la variable de la aplicación.    
+</pre>
+
+</body>
+
+</html>

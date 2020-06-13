@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>JavaScript Numbers</h2>
+
+    <p>Never create numbers as objects.</p>
+    <p>Numbers and objects cannot be safely compared.</p>
+
+    <p id="demo"></p>
+
+    <script>
+        var x = 500; // x is a number
+        var y = new Number(500); // y is an object
+        document.getElementById("demo").innerHTML = (x == y);
+    </script>
+
+</body>
+
+</html>
